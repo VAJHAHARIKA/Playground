@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+int x,y,r;
+double inter,amount,disc,fina;
+cin>>x>>y>>r;
+inter=(x*y*r)/100;
+amount=x+inter;
+disc=(inter*2)/100;
+fina=x+inter-disc;
+std::cout<<inter<<endl;
+std::cout<<amount<<endl;
+std::cout<<disc<<endl;
+std::cout<<fina;
+return 0;
+}
